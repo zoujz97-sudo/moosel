@@ -210,12 +210,14 @@ int main() {
 
 ```cpp
 // 函数声明/定义
-double calculate_stress(double force, double area) {
+double calculate_stress(double force, double area) 
+{
     return force / area;
 }
 
 // 主函数调用
-int main() {
+int main() 
+{
     double f = 5000.0, a = 0.01;
     double sigma = calculate_stress(f, a);
     std::cout << sigma << std::endl;
