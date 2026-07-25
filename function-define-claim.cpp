@@ -15,4 +15,4 @@ int main()
     double stress = calculate_stress(f, a);
     std::cout << "Calculated stress: " << stress << " Pa" << std::endl;
     return 0;
-}
+}  
